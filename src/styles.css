@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(32, 151, 155);
+}
+#navbar{
+    padding: 8px;
+}
+#logo{
+    height:25px;
+}
+#banner{
+    object-fit: cover;
+}
+#about{
+    display:flex;
+    max-width: 800px;
+    margin:0 auto;
+    padding: 8px;
+}
+#description{
+    width:50%;
+    margin:0 auto;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#team{
+    width:50%;
+}
+#team-image{
+    border-radius: 10px;
+    width:100%;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+#banner{
+    width: 100%;
+}
+#jobs-table{
+    width:100%;
+    border:1px solid gray;
+    border-collapse:collapse ;
+}
+.jobs-header-row th{
+    border:1px solid gray;
+    padding:8px;
+    background-color: rgb(97, 233, 226);
+    text-align: center;
+}
+.jobs-data-row td{
+    border:1px solid gray;
+    padding:8px;
+}
+
+#jobs-table tr:nth-child(odd){
+    background-color: rgb(188, 233, 247);
+}
+#jobs-table tr:nth-child(even){
+    background-color: rgb(235, 248, 247);
+}
+h2{
+    text-align: center;
+}
+#application{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 0 8px;
+}
+.form-group{
+    margin:16px 0;
+
+}
+#application-form label{
+    font-weight: 600;
+}
+#application-form input, select,textarea{
+    padding:4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto',sans-serif;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-group input[type="submit"]{
+    background-color: #3B82F6;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+}
+#jobs{
+    max-width:800px;
+    margin:0 auto;
+    padding:0 10px;
+}
+h3{
+    margin-bottom:0px;
+}
+.apply{
+    float:right;
+}
+#footer{
+    background-color: ghostwhite;
+    padding:8px;
+    margin-top:32px;
+    text-align: center;
+}
+#footer-links{
+    list-style:none;
+}
+#footer-links li{
+    display:inline;
+    margin:0 16px;
+}
+#copyright{
+    color: rgb(199, 197, 197);
+}
